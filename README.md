@@ -1,51 +1,73 @@
 # blood-donation-system
 📝 Descrição do Projeto
 
-O Blood Donation System é um sistema completo de gerenciamento de doações de sangue desenvolvido com tecnologias Python para backend e análise de dados. O sistema permite o cadastro de doadores, gestão de estoque sanguíneo e visualização interativa de dados através de dashboard.
+<h1 align="center">Blood Donation System</h1>
 
-✨ Funcionalidades Principais
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9%2B-blue" alt="Python Version">
+  <img src="https://img.shields.io/badge/PostgreSQL-13%2B-blue" alt="PostgreSQL Version">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+</p>
 
-Cadastro de Doadores: Armazenamento de informações completas dos doadores
-Gestão de Estoque: Controle de unidades sanguíneas por tipo e validade
-Dashboard Interativo: Visualização de métricas e KPIs importantes
-Relatórios Automatizados: Geração de relatórios periódicos
-Análise Preditiva: Identificação de padrões e previsão de estoque
-🛠 Stack Tecnológica
+<h2>📝 Descrição do Projeto</h2>
+<p>O Blood Donation System é um sistema completo de gerenciamento de doações de sangue desenvolvido com tecnologias Python para backend e análise de dados. O sistema permite o cadastro de doadores, gestão de estoque sanguíneo e visualização interativa de dados através de dashboard.</p>
 
-Backend & Banco de Dados
+<h2>✨ Funcionalidades Principais</h2>
+<ul>
+  <li><strong>Cadastro de Doadores</strong>: Armazenamento de informações completas dos doadores</li>
+  <li><strong>Gestão de Estoque</strong>: Controle de unidades sanguíneas por tipo e validade</li>
+  <li><strong>Dashboard Interativo</strong>: Visualização de métricas e KPIs importantes</li>
+  <li><strong>Relatórios Automatizados</strong>: Geração de relatórios periódicos</li>
+  <li><strong>Análise Preditiva</strong>: Identificação de padrões e previsão de estoque</li>
+</ul>
 
-Python 3.9+
-PostgreSQL (gerenciado via pgAdmin4)
-SQLAlchemy (ORM para conexão com banco de dados)
-psycopg2 (adaptador PostgreSQL para Python)
-Jupyter Notebooks (para análise exploratória e desenvolvimento de modelos)
+<h2>🛠 Stack Tecnológica</h2>
 
-Frontend & Visualização
+<h3>Backend & Banco de Dados</h3>
+<ul>
+  <li><strong>Python 3.9+</strong></li>
+  <li><strong>PostgreSQL</strong> (gerenciado via pgAdmin4)</li>
+  <li><strong>SQLAlchemy</strong> (ORM para conexão com banco de dados)</li>
+  <li><strong>psycopg2</strong> (adaptador PostgreSQL para Python)</li>
+  <li><strong>Jupyter Notebooks</strong> (para análise exploratória e desenvolvimento de modelos)</li>
+</ul>
 
-Panel (para criação de dashboards interativos)
-Holoviews (visualizações dinâmicas)
-Bokeh (gráficos interativos)
-🚀 Como Executar o Projeto
+<h3>Frontend & Visualização</h3>
+<ul>
+  <li><strong>Panel</strong> (para criação de dashboards interativos)</li>
+  <li><strong>Holoviews</strong> (visualizações dinâmicas)</li>
+  <li><strong>Bokeh</strong> (gráficos interativos)</li>
+</ul>
 
-Pré-requisitos
+<h2>🚀 Como Executar o Projeto</h2>
 
-Python 3.9 ou superior
-PostgreSQL instalado e configurado
-pgAdmin4 para gerenciamento do banco de dados
-Jupyter Notebook para análise de dados
-Configuração Inicial
+<h3>Pré-requisitos</h3>
+<ul>
+  <li>Python 3.9 ou superior</li>
+  <li>PostgreSQL instalado e configurado</li>
+  <li>pgAdmin4 para gerenciamento do banco de dados</li>
+  <li>Jupyter Notebook para análise de dados</li>
+</ul>
 
-Clone o repositório:
-bash
-git clone https://github.com/Vitoria-Rabelo/blood-donation-system.git
-cd blood-donation-system
-Crie um ambiente virtual e ative-o:
-bash
-python -m venv venv
+<h3>Configuração Inicial</h3>
+
+<ol>
+  <li>Clone o repositório:
+    <pre><code>git clone https://github.com/Vitoria-Rabelo/blood-donation-system.git
+cd blood-donation-system</code></pre>
+  </li>
+  
+  <li>Crie um ambiente virtual e ative-o:
+    <pre><code>python -m venv venv
 source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate  # Windows
-Instale as dependências:
-bash
-pip install -r requirements.txt
-Inicie o jupyter notebook dentro da página do projeto no terminal da sua IDE
-jupyter notebook
+venv\Scripts\activate    # Windows</code></pre>
+  </li>
+  
+  <li>Instale as dependências:
+    <pre><code>pip install -r requirements.txt</code></pre>
+  </li>
+  
+  <li>Inicie o Jupyter Notebook:
+    <pre><code>jupyter notebook</code></pre>
+  </li>
+</ol>
