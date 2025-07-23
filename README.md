@@ -1,6 +1,3 @@
-# blood-donation-system
-📝 Descrição do Projeto
-
 <h1 align="center">Blood Donation System</h1>
 
 <p align="center">
@@ -16,9 +13,7 @@
 <ul>
   <li><strong>Cadastro de Doadores</strong>: Armazenamento de informações completas dos doadores</li>
   <li><strong>Gestão de Estoque</strong>: Controle de unidades sanguíneas por tipo e validade</li>
-  <li><strong>Dashboard Interativo</strong>: Visualização de métricas e KPIs importantes</li>
   <li><strong>Relatórios Automatizados</strong>: Geração de relatórios periódicos</li>
-  <li><strong>Análise Preditiva</strong>: Identificação de padrões e previsão de estoque</li>
 </ul>
 
 <h2>🛠 Stack Tecnológica</h2>
@@ -35,8 +30,6 @@
 <h3>Frontend & Visualização</h3>
 <ul>
   <li><strong>Panel</strong> (para criação de dashboards interativos)</li>
-  <li><strong>Holoviews</strong> (visualizações dinâmicas)</li>
-  <li><strong>Bokeh</strong> (gráficos interativos)</li>
 </ul>
 
 <h2>🚀 Como Executar o Projeto</h2>
