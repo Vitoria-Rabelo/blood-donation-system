@@ -34,7 +34,7 @@ INSERT INTO local (horario, endereco, telefone, nome_instituicao) VALUES
 ('08:00:00', 'Av. John Sanford, 1000, Juazeiro do Norte, CE', '(88) 3511-7000', 'Hospital São Lucas'),
 ('09:30:00', 'Rua Pereira Valente, 600, Fortaleza, CE', '(85) 3222-8000', 'Centro de Hematologia do Ceará'),
 ('08:00:00', 'Rua Castro e Silva, 400, Fortaleza, CE', '(85) 3244-9000', 'Instituto de Hemoterapia'),
-('07:00:00', 'Av. José de Freitas, 200, Quixadá, CE', '(88) 3412-0000', 'Unidade de Coleta de Quixadá')
+('07:00:00', 'Av. José de Freitas, 200, Quixadá, CE', '(88) 3412-0000', 'Unidade de Coleta de Quixadá');
 
 INSERT INTO agendamento (cpf_receptor, local_retirada, qtd_bolsas, status, data_e_hora) VALUES
 ('345.678.910-12', 1, 2, 'Agendado', '2023-11-15 09:00:00'),
